@@ -1,0 +1,134 @@
+/* Header */
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 2px orangered;
+    padding: 10px 20px;
+    color: black;
+}
+.nav li{
+   display: flex;
+   justify-content: space-between; 
+   list-style: none;
+}
+.navbar .Profile {
+    margin-right: 15px;
+    color: white;
+}
+
+.navbar-nav .nav-item {
+    color: black;
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    background-color: rgb(246, 99, 0);
+    border-radius: 20px;
+    color: black;
+}
+
+.nav-item .nav-link {
+    color: black;
+
+}
+/* MENU bar styling */
+
+.res-menu-icon{
+    display: none;
+}
+
+/* menu bar responsive */
+
+@media (max-width:820px){
+    .res-menu-icon{
+        display: block;
+       background-color: transparent;
+       border: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-res-links{
+        list-style: none;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        text-align: center;
+       width: 300px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.709);
+     
+
+    }
+
+} 
+
+
+/* HOME page */
+.home_slide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.board {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.board h1 {
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.board a {
+    margin-left: 20px;
+    text-decoration: unset;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
+.board a:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px;
+}
+/* Home page Finished */
+/* responsive */
+@media (max-width: 1199px) {
+    .img_responsive{
+        height:470px;
+    }
+}
+
+@media (max-width: 960px) {
+    .img_responsive{
+        height:400px;
+    }
+  
+}
+@media (max-width: 820px) {
+  .home_slide {
+        display: unset;
+      
+    }
+    .img_responsive{
+        height:550px;
+    }
+
+}
+@media (max-width:641px){
+    .img_responsive{
+        height:370px;
+    }
+}
+
+@media (max-width:448px){
+    .img_responsive{
+        height:270px;
+    }
+}

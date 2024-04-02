@@ -1,0 +1,61 @@
+/** about section **/
+
+.about {
+      background-image: linear-gradient(to right, rgb(1, 25, 120) , rgb(18, 22, 137));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 90px;
+}
+
+.about .titlepage {
+    padding-bottom: 0;
+    max-width: 554px;
+    float: right;
+}
+
+.about .titlepage h2 {
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size:45px;
+}
+
+.about .titlepage p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 29px;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+    margin-bottom: -11px;
+}
+
+.about .read_more {
+    color: #fff;
+   
+}
+.link_btn a{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: unset;
+    padding: 10PX;
+
+}
+.about .read_more:hover {
+    color: #f0390f;
+    background: #f6f6f6;
+    border-radius: 20px;
+}
+
+
+/** end about section **/
+
